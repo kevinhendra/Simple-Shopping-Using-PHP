@@ -1,0 +1,177 @@
+	div#container{
+		padding-top: 30px;
+	}
+	
+	
+	div.top{
+		margin-top: -8;
+		margin-bottom: 0;
+		margin-left: -8;
+		margin-right: -8;
+		padding: 5px;
+		background-size: contain;
+		box-sizing: border-box;
+		position: fixed;
+		width: 100%;
+	}
+	
+	div.top2{
+		margin-top: 50px;
+		margin-bottom: 0;
+		margin-left: -10;
+		padding: 5px;
+		position: fixed;
+		width: 100%;
+		border-color: grey;
+		border-style: solid none solid none;
+	}
+	
+	div.toko{
+		height: 40px;
+		padding-top: 15px;
+	}
+	
+	.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}	
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+[class*="col-"] {
+    float: left;
+}
+	
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+div.center{
+	width: 100%;
+	align: rightt;
+	text-align: right;
+}
+
+div.masuk{
+	padding-top: 150px;
+}
+
+div.masuk table{
+	border: 1px solid black;
+}
+
+div.masuk input[type="text"], input[type="password"], td{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.kotak{
+			border-radius: 30px;
+			border: 3px solid black;
+			width: 22%;
+			height: 400px;
+			text-align: center;
+			float: left;
+			cursor: pointer;
+			margin: 10px;
+		}
+		
+.img{
+			max-width: 150px;
+            height: 150px;
+			margin: 0 ;
+		}		
+		
+		
+		.bulat{
+			background: yellow;
+			border-radius: 70%;
+			width: 70%;
+			height: 80%;
+			padding-top: 15px;
+			padding-bottom: 10px;
+			margin-left: 30%;
+		}
+		
+	input[type=button] {
+			background-color: lightblue;
+			color: navy;
+			padding: 10px 22px;
+			border: 2px solid blue;
+			border-radius: 15px;
+		}
+		
+	@media only screen and (max-width: 950px) {
+		[class="kotak"] {
+			width: 22%;
+			margin-left: 0;
+		}	
+	}
+	
+	@media only screen and (max-width: 930px) {
+		[class="kotak"] {
+			width: 22%;
+			margin: 3;
+		}	
+	}
+	
+	@media only screen and (max-width: 900px) {
+		[class="kotak"] {
+			width: 30%;
+			margin-left: 13;
+		}	
+	}	
+	
+	
+	@media only screen and (max-width: 720px) {
+		[class="kotak"] {
+			width: 40%;
+			margin-left: 40;
+			margin-bottom: 15;
+		}	
+	}
+	
+	@media only screen and (max-width: 550px) {
+		[class="kotak"] {
+			width: 45%;
+			margin-left: 5;
+		}	
+	}
+	
+	@media only screen and (max-width: 470px) {
+		[class="kotak"] {
+			width: 100%;
+			margin-left: 0;
+			margin-top: 40px;
+		}	
+		
+		input[type=button] {
+				width: 100%;
+			}
+	}
+
+	table#tablec{
+		width: 100%;
+	}
+	
+	body{
+		font-family: arial;
+	}
+
+	.pass{
+		width: 100%;
+	}
